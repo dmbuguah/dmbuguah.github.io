@@ -4,56 +4,135 @@
 <meta charset="UTF-8">
     <title>HTML5 FOR WEB DESIGNERS</title>
     <link rel="stylesheet" href="index.css">
+    <h1>HTML5 For Web Designers by Jeremy Keith</h1>
 </head>
-<nav></nav>
-<aside></aside>
 <body>
-<section>
-<h2>CHAPTER 1 A BRIEF HISTORY OF MARKUP</h2>
-<article>
-<ul>
-    <li>In 1991 Sir Tim Berners-Lee wrote a document called "HTML Tags" in which he proposed fewer than two  dozens elements that could be used for writing web pages</li>
-    <li>The first official specification was HTML 2.0 where by many of the features in this language were driven be existing implementations</li>
-    <li>The next revision after HTNL 4.0.1 was called XHTML 1.0</li>
-    <li>XHTML required following the rules of XML</li>
-    <li>All tags in XHTML were required to be lowercasw</li>
-</ul>
-<h2>CHAPTER 2 THE DESIGN OF HTML5</h2>
-<h4>DESIGN PRINCIPLE IN THE DEVELOPMENT OF HTML5</h4>
-<ul>
-    <li>Support existing content</li>
-    <li>No reinvention  of the wheel</li>
-    <li>Pave the cowpaths</li>
-</ul>
-<h4>ERROR HANDLING</h4>
-<ul>
-    <li>Specification defines what what browsers should do when dealing with badly formed documnents</li>
-</ul>
-<h4>CHANGES IN HTML5</h4>
-<ul>
-    <li>HTML5 <strong>DOCTYPE</strong> is quite simple <strong>&lt;DOCTYPE html&gt;</strong></li>
-    <li>The <strong>meta</strong> declaration for documents <strong>&lt;meta charset="UTF-8"&gt;</strong></li>
-    <li>The script tag <strong>&lt;script src="index.js"&gt;&lt;/script&gt;</strong></li>
-    <li>The type tag <strong>&lt; link rel= "stylesheet" href="index.css"&gt;</strong></li> </li>
-    <li>In HTML5 some restrictions got,choose what suites you Uppercase,lowercase,quoted,unquoted</li>
-    <p>In the past versions of HTML whenever a previously existing element was removed from the specification the designers were adviced not tom use(<strong>Deprecated elements</strong>,this is not the case in HTML5;elements just become absolute</p>
-    <h4>Examples of absolute elements</h4>
-    <ul>
+        <section>
+            <header>
+                <h2>Chapter 1 A BRIEF HISTORY OF MARKUP</h2>
+            </header>
+                <ul>
+                    <li>In 1991 Sir Tim Berners-Lee wrote a document called "HTML Tags" in which he proposed fewer than two  dozens elements that could be used for writing web pages</li>
+                    <li>The first official specification was HTML 2.0 where by many of the features in this language were driven be existing implementations</li>
+                    <li>The next revision after HTNL 4.0.1 was called XHTML 1.0</li>
+                    <li>XHTML required following the rules of XML</li>
+                    <li>All tags in XHTML were required to be lowercase</li>
+                </ul>
+        </section>
 
-        <li>frame</li>
-        <li>frameset</li>
-        <li>noframes</li>
-        <li>acronym use abbr</li>
-        <li>font</li>
-        <li>big</li>
-        <li>center</li>
-    </ul>
-    <h4>Attributes which have had a shift in their meanings</h4>
-    <ul>
-        <li></li>
-    </ul>
-</ul>
-</article>
-</section>
+        <section>
+
+            <header>
+                <h2>Chapter 2 THE DESIGN OF HTML5</h2>
+            </header>
+
+                <h4>DESIGN PRINCIPLE IN THE DEVELOPMENT OF HTML5</h4>
+                    <ul>
+                        <li>Support existing content</li>
+                        <li>No reinvention  of the wheel</li>
+                        <li>Pave the cowpaths</li>
+                    </ul>
+
+                <h4>ERROR HANDLING</h4>
+                    <ul>
+                        <li>Specification defines what what browsers should do when dealing with badly formed documnents</li>
+                    </ul>
+
+                <h4>CHANGES IN HTML5</h4>
+
+                    <ul>
+
+                        <li>HTML5 <strong>DOCTYPE</strong> is quite simple <strong>&lt;DOCTYPE html&gt;</strong></li>
+                        <li>The <strong>meta</strong> declaration for documents <strong>&lt;meta charset="UTF-8"&gt;</strong></li>
+                        <li>The script tag <strong>&lt;script src="index.js"&gt;&lt;/script&gt;</strong></li>
+                        <li>The type tag <strong>&lt; link rel= "stylesheet" href="index.css"&gt;</strong></li> </li>
+                        <li>In HTML5 some restrictions got,choose what suites you Uppercase,lowercase,quoted,unquoted</li>
+                        <p>In the past versions of HTML whenever a previously existing element was removed from the specification the designers were adviced not tom use(<strong>Deprecated elements</strong>,this is not the case in HTML5;elements just become absolute</p>
+                        <h4>Examples of absolute elements</h4>
+                        <ul>
+
+                            <li>frame</li>
+                            <li>frameset</li>
+                            <li>noframes</li>
+                            <li>acronym use abbr</li>
+                            <li>font</li>
+                            <li>big</li>
+                            <li>center</li>
+                        </ul>
+
+                        <h4>Attributes which have had a shift in their meanings</h4>
+                        <ul>
+                            <li>The <strong>b</strong></li>
+                        </ul>
+
+                    </ul>
+        </section>
+
+        <section>
+            <header>
+                <h2>Chapter 3 RICH MEDIA</h2>
+            </header>
+
+                <h4>1.CANVAS</h4>
+                    <ul>
+                        <li>HTML5 has a rich media elements native to the browaer instead of using plug-in</li>
+                        <li>An example is the use of canvas for creating dynamic elements</li>
+                        <canvas id="my-first-canvas" width="360" height="240">
+                        <p>No canvas support? Have an old-fashioned image instead:</p>
+                        <img src="media/image.jpg" alt="future watch">
+                        </canvas>
+                        <p>The outstanding thing about canvas is that its content can be updated at any moment</p>
+                    </ul>
+
+                <h4>2.AUDIO</h4>
+                <ul>
+                    <li>Embedding an audio file in HTML5 document is simple <strong> &lt; audio src="indexmedia.mp3"&gt;&lt;/audio&gt;</strong></li>
+                    <li>Attributes which can be applied with the audio element include</li>
+                    <ul>
+                        <li>autoplay</li>
+                        <li>controls for playing,pausing and adjusting volume</li>
+                        <li>autobuffer which has been replaced with preload</li>
+                    </ul>
+                    <li>Inluding fallback content is important for browsers that dont support certain foramts of audio</li>
+                </ul>
+
+                <h4>3.VIDEO</h4>
+                <ul>
+                    <li>The video also provides the controls like in audio but has the main difference being that one can choose a presentattive image for the video and display using the poster attribute</li>
+                    <video src="movie.mp4" controls width="360" height="240" poster="media/image2.jpg"></video>
+                </ul>
+        </section>
+
+        <section>
+            <header>
+                <h2>Chapter 4 WEB FORMS 2.O</h2>
+            </header>
+                <ul>
+                    <li>There has been a change in styling from Javascript to CSS3 and now to HTML5</li>
+                    <li>Below are important attribute worth noting in HTML5</li>
+                    <ul>
+                        <li>Placeholder</li>
+                        <li>Autofocus</li>
+                        <li>Required</li>
+                        <li>Autocomplete</li>
+                        <li>Datalist</li>
+                        <li>Input Types</li>
+                        <p>The type attribute of input element is being greatly exapanded in HTML5.This has led to having types such as: searching,email,url,tel,range etc</p>
+                    </ul>
+                </ul>
+        </section>
+
+        <section>
+            <header>
+                <h2>Chapter 5 SEMANTICS</h2>
+            </header>
+                <ul>
+                    <li>Essentially HTML does not provide a huge number of elements to work with,this  has led to having other languages allow one to invent any element you want provided you teach the parser what those elements are</li>
+                    <li>This is not fully restricted because HTML provides the class attribute that enables labeling of specific instances of an element. </li>
+                    <li>There has been introduction of new inline elements which include mark,time,meter to markup measurements,progress to mark up a value that is in the process of changing</li>
+                    <li>With HTML5 the structure has changed having introduction of new attributes.The attributes include :section used for grouping related related content,header for introductory or navigational aids,footer which has information about its containing elements,aside for tangentially related content,nav contain a navigation information </li>
+                    <li>For better web page formatting its good to use some of the Content Models provided by HTML5,this include sectioning content</li>
+                </ul>
+        </section>
 </body>
 </html>
