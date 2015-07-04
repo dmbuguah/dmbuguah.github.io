@@ -1,0 +1,37 @@
+h1, h2{
+    color: gray;
+    font: 2em Times, serif;
+    text-decoration: underline overline;
+    background: silver url(media/image2.jpg) repeat-x;
+    border: 1px solid red;
+    margin-bottom: 0;
+    padding: 5px;
+}
+a:link , a:visited{
+    color: black;
+    background:white;
+}
+a:hover{
+    font-size: 20px;
+}
+p> em {
+    display: inline;
+    color: blue;
+}
+ul em{
+    color: blue;
+}
+h3 + p{
+    margin-bottom: 0px;
+}
+p:first-child {font-weight: bold;}
+li:first-child {text-transform: uppercase;}
+
+p:first-letter {color: red;}
+h2:first-letter {font-size: 200%;}
+p:first-line {color: purple;}
+h2:before {content: "]]"; color: silver;}
+
+h1 + p {color: black; font-style: italic;} /* 0,0,0,2 */
+p {color: gray; background: white; font-style: normal;} /* 0,0,0,1 */
+*.aside {color: black; background: silver;} /* 0,0,1,0 */

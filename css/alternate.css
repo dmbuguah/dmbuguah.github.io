@@ -1,0 +1,9 @@
+h1, h2{
+    color: maroon;
+    font: italic 2em Times, serif;
+    text-decoration: underline overline;
+    background: silver;
+    border: 1px solid red;
+    margin-bottom: 0;
+    padding: 5px;
+}

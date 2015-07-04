@@ -1,0 +1,60 @@
+/*h1 {
+    font-style: italic;
+    color: gray !important;
+}
+.title {
+    color: black;
+    background: silver;
+}
+* {
+    background: white !important;
+    }
+
+h1 + p {
+    color: black;
+    font-style: italic;
+    } /* 0,0,0,2 */
+/*p {
+    color: gray;
+    background: white;
+    font-style: normal;
+    font-family: Times, TimesNR, 'New Century Schoolbook', Georgia,'New York', serif;
+    font-weight: bold;
+
+    }*/ /* 0,0,0,1 */
+
+/**.aside {
+    color: black;
+    background: silver;
+    } *//* 0,0,1,0 */
+/*
+h1{
+    font-family: Arial;
+}**/
+/*Font size In heritance*/
+/*p {
+    font-size: 10px;
+    text-indent: 4em;
+}
+em {font-size: 120%;}
+strong {font-size: 135%;*/}
+/*Font size In heritance*/
+
+/*Length units*/
+/*p.one {font-size: 36pt;}
+p.two {font-size: 3pc;}
+p.three {font-size: 0.5in;}
+p.four {font-size: 1.27cm;}
+p.five {font-size: 12.7mm;}
+em {font-style: oblique;}
+i {font-style: italic;}
+*/
+
+/*Length units*/
+
+/*Indentation*/
+div#outer {width: 500px;}
+div#inner {text-indent: 10%;}
+p {width: 200px;}
+
+/*Indentation*/
