@@ -1,0 +1,52 @@
+table{
+    margin: 0.5;
+    border: 3px solid black;
+    width: 20em;
+    height: 20em;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 3px 7px;
+
+
+}
+caption{
+    background: gray;
+    margin: 1em 0;
+    caption-side: top;
+}
+td{
+    border: 1px solid gray;
+    padding: 3px;
+
+}
+td.border{
+    border: 1px solid gray;
+    border-width: 6px;
+}
+td.hidden{
+    border-style: hidden;
+}
+td.dotted{
+    border-style: dotted;
+    border-width: 2px;
+}
+div table{
+    table-layout: auto;
+    width: 20em;
+
+}
+table div {
+    border: 1px dashed gray;
+     background: white;
+ }
+ #cell1{
+ vertical-align: top;
+ }
+ #cell2{
+    vertical-align: middle;
+
+ }
+ #cell3{
+    vertical-align: bottom;
+ }
+

@@ -1,0 +1,28 @@
+p{
+    text-indent: 4em;
+}
+.left{
+    text-align: left;
+    letter-spacing: 0.5em;
+}
+.right{
+    text-align: right;
+    word-spacing: -0.5em;
+}
+.center{
+    text-align: center;
+    word-spacing: 0.5em;
+}
+span.raise{
+    vertical-align: super;
+}
+span.lower{
+    vertical-align: sub;
+}
+p>strong{
+    text-transform: uppercase;
+    color: blue;text-shadow:silver 2px 2px 2px;
+}
+p>span{
+    text-decoration: line-through;
+}

@@ -32,6 +32,3 @@ h2:first-letter {font-size: 200%;}
 p:first-line {color: purple;}
 h2:before {content: "]]"; color: silver;}
 
-h1 + p {color: black; font-style: italic;} /* 0,0,0,2 */
-p {color: gray; background: white; font-style: normal;} /* 0,0,0,1 */
-*.aside {color: black; background: silver;} /* 0,0,1,0 */

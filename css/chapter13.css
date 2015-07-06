@@ -1,0 +1,43 @@
+a.widget{
+    font: caption;
+}
+body{
+    color: WindowText;
+    background: Window;
+}
+a[href]{
+    cursor: crosshair;
+}
+
+acronym[p]{
+    cursor: help;
+    border-bottom: 1px dotted gray;
+}
+a.external{
+    cursor: url(media/globe.jpg),pointer;
+}
+div#callbox {
+    outline: 5px solid invert;
+    margin: 5px;
+}
+input:focus {
+    outline: 1em double gray;
+
+}
+.name{
+    margin-bottom: 1em;
+}
+.nameinput{
+    margin-left: 23px;
+}
+h4{
+    text-decoration: underline;
+}
+body:before {
+    content:"";
+    position:fixed;
+    top:50%; left: 50%;
+    z-index:9999;
+    width:1px; height: 1px;
+    outline:2999px solid invert;
+}

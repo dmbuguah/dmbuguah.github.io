@@ -1,0 +1,56 @@
+h1 {
+    color: black;
+    font: italic 2em Times, serif; text-decoration: underline;
+    background: white;
+    text-decoration: underline dotted;
+    padding: 5px;
+}
+h3,p {
+    color: black;
+    background: white;
+
+}
+h1,h3,h2{
+    border: 1px black dotted;
+}
+.classSelector{
+    background: white;
+    color: black;
+}
+
+#idSelector{
+      background: white;
+     color: black;
+
+}
+span#idSelector{
+    font-weight: bold;
+    font-style: italic;
+}
+h5[class]{
+    color: silver;
+}
+li[class="classSelector"]{
+    color: blue;
+}
+p big {
+    color: blue;
+}
+p > em{
+    color: red;
+}
+a:hover{
+    color: red;
+    font-size: 20px;
+}
+a:active{
+    color: yellow;
+
+}
+input:focus{
+    background: silver;
+    font-weight: bold;
+}
+p:first-letter{
+    font-size:30px ;
+}
