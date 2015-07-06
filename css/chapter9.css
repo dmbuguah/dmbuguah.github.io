@@ -1,0 +1,50 @@
+h1{
+    color: blue;
+}
+.lorem{
+    width: 50%;
+
+}
+p a{
+    color: red;
+}
+p{
+    color: silver;
+    background-image: url(media/globe.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+/*a:visited{
+    color: #333;
+}*/
+img{
+    width: 200px;
+    height: 150px;
+    border: 5px solid;
+    border-color: gray;
+}
+.back{
+    width: 50%;
+    height: 50%;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+
+}
+body{
+    background-image: url(media/download.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+  }
+
+  .part{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    color: black;
+    background-image: url(media/images3.jpg);
+    background-position: -10% -10%;
+
+}
