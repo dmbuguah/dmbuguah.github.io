@@ -1,0 +1,48 @@
+h1{
+    font-family: sans-serif;
+}
+.times{
+    font-family: times;
+    font-size: 22px;
+}
+.verdana{
+    font-family: verdana;
+    font-size: 22px;
+}
+.arial{
+    font-family: arial;
+    font-size: 22px;
+}
+.helvetica{
+    font-family: helvetica;
+    font-size: 22px;
+}
+.family{
+    font-family: Georgia,serif;
+}
+p {
+    font-weight: bold;
+}
+p em{
+    font-weight: bolder;
+}
+.one{
+    font-size: xx-small;
+}
+.two{
+    font-size: x-small;
+}
+.three{
+    font-size: small;
+}
+.four{
+    font-size: medium;
+}
+.five{
+    font-size: large;
+    font-style: oblique;
+}
+.six{
+    font-size: xx-large;
+    font-style: italic;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="chapter3.css">
+</head>
+<body>
+<h1>Chapter3:Structure and the Cascade </h1>
+<h2>Declarations & Specificity</h2>
+<h4>Mission</h4>
+<p>To add value and deliver a quality customer experience to our clients.</p>
+
+<h4>Vision</h4>
+<p>To be a value-adding health informatics organization, providing a holistic information solution for decision support in healthcare through better use of data and business intelligence.</p>
+
+<div>
+    <h2>ID and Attribute Selector Specificity</h2>
+    <ul>
+        <li style="color:green;">Its good to note that every inline declaration has a specificity of 1,0,0,0</li>
+        <li>Universal selectors have a specificity of zero hence hence wins when applied to elements with other specificity.<br>This is a disasvantage of using universal selectors blindly</li>
+    </ul>
+</div>
+<div>
+    <h2>Cascade</h2>
+    <ul>
+        <li>If two rules apply to an element and one is marked !important,the one marked !important wins</li>
+        <li>If two rules have exactly the same weight, origin, and
+specificity, then the one that occurs later in the style sheet wins out.</li>
+    </ul>
+</div>
+
+</body>
+</html>

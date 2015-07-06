@@ -1,0 +1,24 @@
+ul li{
+    list-style-type: decimal;
+}
+
+div[class="image"]>ul li {
+    list-style-image: url(media/globe.jpg);
+}
+a[href]:before{
+    content: "follow ";
+}
+h4:before{
+    content: "Before";
+    display: inline;
+    color: gray;
+    border-bottom: 1px dotted black;
+}
+ol{
+    counter-reset: ordered;
+}
+ol li:before{
+    counter-increment: ordered;
+    content: counters(ordered,".")"-";
+
+}

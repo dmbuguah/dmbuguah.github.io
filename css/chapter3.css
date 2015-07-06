@@ -1,0 +1,17 @@
+h1 {
+    color: maroon;
+    font: italic 2em Times, serif; text-decoration: underline;
+    background: white;
+    padding: 5px
+
+}
+h4 + p{
+    color: gray;
+    font-style: italic;
+}
+li{
+    color: blue;
+}
+h2{
+    text-decoration: underline;
+}

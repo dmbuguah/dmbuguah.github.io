@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+}
+@media screen{
+    h1{
+        margin-top: 1em;
+        page-break-before: left;
+        voice-family: child; pitch:100Hz;
+        pause-after:200ms;
+    }
+}
+*{
+    color: black !important;
+    background: white !important;
+
+}
+div#leftcol {
+    float: left;
+    width: 45%;
+    speak:normal;
+}
+div#rightcol {
+    float: right;
+    width: 45%;
+}
+@page{
+    size: landscape;
+    margin: 3.75in;
+}
+p{
+    widows: 30;
+}
+div#runhead{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+div.punct{
+    float: left;
+}
+div.speak_header{
+    float: left;
+    position: relative;
+}
+#color{
+    speak-header:always;
+
+}
+#headers{
+    speak:none;
+}
+div.marine{
+    volume:60;
+}
+big{
+    volume:125%;
+}
+a.link{
+    cue-before: url(media/chime.mp3);
+}

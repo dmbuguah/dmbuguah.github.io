@@ -1,0 +1,17 @@
+h1 {
+    color: maroon;
+    font: italic 2em Times, serif; text-decoration: underline;
+    background: yellow url(media/image.jpg) repeat-x;
+    border: 1px solid red; margin-bottom: 0;
+    padding: 5px;}
+h3{
+    color: gray;
+    background: white;
+}
+a:link,a:visited{
+    color: white;
+    background: gray;
+}
+p{
+    display: block;
+}
