@@ -1,0 +1,59 @@
+.margin{
+    margin: 5px;
+    background-color: gray;
+   width: 40%;
+   height: 50%;
+   float: left;
+}
+.pmargin{
+    margin: 8px;
+}
+.padding{
+    margin: 5px;
+    background-color: gray;
+   width: 40%;
+   height: 50%;
+   float: right;
+}
+.ppadding{
+    padding: 8px;
+}
+h3 {
+    margin: 14px 5em 0.1in 3ex;
+}
+div.all {
+    border: 1px dotted gray;
+     margin: 1em;
+     width: 40%;
+ }
+div[class="all"]p {
+    margin: 1em;
+     border: 1px dashed silver;
+ }
+p.one {
+    margin: 0 -1em;
+}
+p.two {
+    margin: -1em 0;
+}
+.a{
+    border-style: dashed;
+}
+.b{
+    border-style: groove;
+}
+.c{
+    border-style: dotted;
+}
+.d{
+    border-style: double;
+    border-top-color: green;
+}
+.e{
+    border-style: inset;
+    border-color: blue;
+}
+h1{
+    border:solid gray;
+    border-left-width: 20px;
+}
