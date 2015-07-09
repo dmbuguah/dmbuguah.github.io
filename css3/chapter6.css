@@ -1,0 +1,55 @@
+p[class="fshadow"]{
+  text-shadow: -3px -3px #BBB;
+  font-size: 40px;
+  font-weight: bold;
+}
+p[class="sshadow"]{
+  text-shadow: -5px 3px #BBB;
+    font-size: 40px;
+  font-weight: bold;
+}
+p[class="tshadow"]{
+  text-shadow: -5px 0 #BBB;
+   font-size: 40px;
+  font-weight: bold;
+}
+h3 > span{
+ font-size: 15px;
+ font-weight: lighter;
+}
+p[class="overflow"] {
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+    white-space: nowrap;
+    border:1px solid;
+    width: 30%;
+}
+p[class="overflow_el"] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border:1px solid;
+    width: 30%;
+}
+h4+ p {
+    margin-top: -12px;
+}
+div[class="break-word"]{
+
+    width: 30%;
+    float: left;
+
+    word-wrap:normal;
+}
+div[class="keyword"]{
+
+    width: 30%;
+    float:right;
+    background: gray;
+}
+p[class="wrap"]{
+    word-wrap:break-word;
+    border:1px solid black;
+    overflow: hidden;
+    resize: both;
+}

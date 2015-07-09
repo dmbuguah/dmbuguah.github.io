@@ -1,0 +1,21 @@
+div[class='col-div']{
+    -webkit-column-count:3;
+
+}
+div[class="col-width"]{
+    -webkit-column-width:300px;
+    -webkit-column-fill:balance;
+    -webkit-column-gap:2em;
+    -webkit-column-rule-color: silver;
+    -webkit-column-rule-style: double;
+    -webkit-column-rule-width: 0.3em;
+    /*width: 710px;*/
+}
+
+h3 >span{
+    font-weight: lighter;
+    font-size: 16px;
+}
+.span-columns{
+    -webkit-column-span:all;
+}

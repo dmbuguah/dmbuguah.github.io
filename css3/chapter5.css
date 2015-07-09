@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Chunkfive;
+    src: url('media/Chunkfive.woff') format('woff');
+    }
+@font-face {
+    font-family: Chunkfive;
+    font-style: italic;
+    src:  url('media/Chunkfive.woff') format('woff');
+
+    }
+h3.webfont { font-family: Chunkfive, sans-serif; }
+div.examples{
+    width: 50%;
+}
+
+@font-face {
+    font-family: 'Chunk';
+    src: url('media/Chunkfive.woff') format('woff');
+}
+@font-face {
+    font-family: 'GenBasR';
+    src: url('media/alex.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Airstra';
+    font-style: italic;
+    src: url('media/Airstra.ttf') format('ttf');
+}
+h4 {
+    font-family: Chunkfive, sans-serif;
+}
+ h2[class="fonts"] {
+ font-family: 'Airstra', cursive;
+}
+ p[class="font-face"] {
+    font-family: 'Chunk', sans-serif;
+     }
+
+h2[class="author"]{
+    font-family: 'GenBasR',Times;
+}
+
+p[class="pclass"]{
+  font-size-adjust: 0.517;
+  font-size: 20px;
+  font-stretch: condensed;
+  }
+p[class="pclass3"] {
+ font-family: Impact, serif;
+  }
+.lig1{ font-feature-settings: "liga" off; }
+.lig2 { font-feature-settings: "liga"; }
+.lig3{ font-feature-settings: "dlig"; }

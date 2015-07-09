@@ -1,0 +1,62 @@
+div[class="linear"]{
+    width: 50%;
+    height: 200px;
+    background-image: linear-gradient(black,white);
+}
+.toleft{
+  width: 25%;
+  height: 200px;
+  background-image: linear-gradient(to left, black, white);
+  float: left;
+  position: relative;
+}
+.topright{
+  width: 20%;
+  height: 200px;
+  background-image: linear-gradient(to top right, black, white);
+  float: right;
+  margin-right:40em;
+  position: relative;
+}
+.degree{
+  width: 25%;
+   height: 200px;
+   background-image: linear-gradient(120deg, black, white);
+   float:left;
+   position: absolute;
+   margin-left: 50em;
+}
+.stopvalue{
+    width: 50%;
+    height: 200px;
+    background-image: linear-gradient(black, white 75%, black);
+}
+.repeat{
+    width: 50%;
+    height: 200px;
+    background-image: repeating-linear-gradient(315deg, black, black 2px, white 2px, white 4px);
+}
+.radial{
+    width: 50%;
+    height: 200px;
+    background-image: radial-gradient(white, black);
+}
+.rfirst{
+  width: 30%;
+  height: 150px;
+  float: left;
+  background-image:
+    radial-gradient(closest-side circle at 20% 50%, white, black 95%, transparent),
+    radial-gradient(closest-side circle at 50% 50%, white, black 95%, transparent),
+    radial-gradient(closest-side circle at 80% 50%, white, black 95%, transparent);
+}
+.lfirst{
+      width: 20%;
+  height: 150px;
+  float: right;
+  margin-right: 38em;
+  background-image:
+linear-gradient(to right bottom, black, white 50%, transparent 50%),
+linear-gradient(to left bottom, black, white 50%, black 50%);
+
+}

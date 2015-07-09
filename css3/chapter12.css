@@ -1,0 +1,109 @@
+.rotate{
+    background: gray;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    transform: rotate(-15deg);
+    float: left;
+     position: absolute;
+
+}
+
+.placeholder{
+    background: silver;
+    color: black;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    float: left;
+    margin-bottom: 3em;
+}
+
+
+.translate{
+    background: gray;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    transform: translateX(20px) translateY(15%);
+    float: left;
+     position: absolute;
+
+
+}
+.translateplace{
+
+    background: silver;
+    color: black;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    float: left;
+    margin-bottom: 3em;
+}
+.scale{
+    background: gray;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    transform: scale(0.5);
+    float: left;
+     position: absolute;
+
+}
+.scaleplace{
+    background: silver;
+    color: black;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    float: left;
+    margin-bottom: 3em;
+
+}
+.scalecenter{
+ float: left;
+ width: 100%;
+}
+.scalewidth{
+  float: right;
+  width: 100%;
+}
+.scaleplace-width{
+    background: silver;
+    color: black;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    float: left;
+    margin-bottom: 3em;
+    transform: scaleX(0.5);
+
+}
+.scale-width{
+
+    background: gray;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    float: left;
+    position: absolute;
+}
+.skew{
+   background: gray;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    float: left;
+    position: absolute
+}
+.skewbefore{
+   background: silver;
+    color: black;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    float: left;
+    margin-bottom: 3em;
+    transform:skewX(-15deg);
+}
