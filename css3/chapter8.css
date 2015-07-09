@@ -1,0 +1,10 @@
+div[class="back"]{
+
+     background: url('media/images3.jpg');
+     background-position: right 10em bottom 50%;
+     -webkit-background-repeat: round;
+     height: 150px;
+}
+body{
+
+}

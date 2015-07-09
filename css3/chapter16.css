@@ -1,0 +1,50 @@
+div[class="emunit"] li{
+    font-size: 2em;
+}
+div[class="remunit"] > ul >li{
+    font-size: 2rem;
+
+}
+div[class="emunit"]{
+    float: left;
+}
+div[class="remunit"]{
+    float: right;
+    margin-right: 20em;
+}
+h4{
+    font-weight: lighter;
+    font-size: 17px;
+}
+p{
+    /*width: 550px;*/
+}
+
+.wrap-content-max{
+    width:-webkit-max-content;
+    background-color: lightblue;
+    padding: 5px;
+    float: left;
+}
+.wrap-content-min{
+    width:-webkit-min-content;
+    background-color: lightblue;
+    padding: 5px;
+    float: right;
+    margin-right: 22em;
+}
+.fill-content{
+    background-color: lightblue;
+    width: -webkit-min-content;
+    padding: 5px;
+}
+div[class="fill-content"]{
+    width: -webkit-min-content;
+}
+div[class="fill-content"] p{
+    border-width: 0 0.5em;
+    display: inline-block;
+    padding: 0 1em;
+    -webkit-width:fill;
+    background-color: rgb(254,255,255);
+}

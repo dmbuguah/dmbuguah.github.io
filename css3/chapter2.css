@@ -1,0 +1,27 @@
+@media(min-width: 600px){
+    body{
+        background: url('media/image.jpg');
+        color: white;
+    }
+
+}
+ul {
+    overflow: hidden;
+}
+li {
+    float: left;
+     list-style: none;
+     padding-right: 14px;
+
+     border:1px solid;
+}
+@media (orientation: portrait) {
+    li {
+        float: none;
+
+    }
+}
+h3>span{
+    font-size: 15px;
+    font-style: italic;
+}

@@ -1,0 +1,43 @@
+.parent {
+    background-color: black;
+    /*border:1px solid;*/
+    opacity: 0.8;
+    height: 200px;
+     }
+.child {
+    text-align: center;
+     background-color: white;
+     width: 100%;
+     opacity: 0.2;
+     height:200px;
+     margin: 0 auto;
+
+  }
+
+  .parent{
+    width: 50%;
+  }
+  div[class="alpha_div"]{
+
+    background-color: white;
+    height: 200px;
+    /*opacity: 0.9;*/
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 10px 10px 4px rgba(0,0,0,0.7);
+  }
+
+  div[class="box"]{
+    background-image:url('media/images3.jpg');
+     width: 50%;
+     background-repeat: repeat;
+  }
+  div[class="alpha_div"] > p {
+    text-shadow: 5px 5px 1px rgba(0,0,0,0.6);
+  }
+
+  h2 { color: black; }
+.ccolor {
+background-color: black;
+color: white;
+}
+h2 abbr { border-bottom: 6px double currentColor; }
