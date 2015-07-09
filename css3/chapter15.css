@@ -1,0 +1,57 @@
+div[class="flex"]{
+  display: flex;
+  height: 100px;
+}
+#cell1{
+  background-color: orange;
+   width: 100px;
+   text-align: center;
+   padding-top: 2em;
+}
+#cell2{
+   background-color: blue;
+   width: 100px;
+   text-align: center;
+   padding-top: 2em;
+}
+
+div[class="flex-reverse"]{
+    display: flex;
+    height: 100px;
+    flex-direction: row-reverse;
+}
+
+div[class="flex-reoder"]{
+  display: flex;
+  height: 100px;
+}
+#cella {
+    width: 100px;
+    background-color: orange;
+    text-align: center;
+    padding-top: 2em;
+    order: 2;
+
+}
+#cellb{
+    width: 100px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 2em;
+    order: 3;
+}
+#cellc {
+    width: 100px;
+    background-color: silver;
+    text-align: center;
+    padding-top: 2em;
+    order: 1;
+}
+#celld {
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    padding-top: 2em;
+    order: 3;
+}
+

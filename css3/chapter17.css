@@ -1,0 +1,7 @@
+div[class="grid-layout"]{
+  display: grid;
+  border:1px solid black;
+  grid-template-columns: 100px 100px 200px;
+  width: 600px;
+  height: 200px;
+}

@@ -1,0 +1,54 @@
+blockquote h3{
+    background-color: rgb(43,6,12);
+    width: 200px;
+    color: white;
+    text-align: center;
+    transition:background-color 2s;
+}
+blockquote h3:hover{
+    background-color:   red;
+}
+
+.trans-duration{
+    font-size: 150%;
+    -webkit-transition-property: font-size;
+    -webkit-transition-duration: 2s;
+}
+
+blockquote h2 {
+    font-size: 150%;
+    background-color: rgb(43,6,12);
+    width: auto;
+    color: white;
+    text-align: center;
+    -webkit-transition-property: font-size;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-delay: 250ms;
+}
+blockquote h2:hover{
+    font-size: 650%;
+
+}
+
+@keyframes expand {
+    from, to { border-width: 4px; }
+    50% { border-width: 12px; }
+    to {
+        height: 100%;
+        width: 100%;
+    }
+}
+div[class="animation"]{
+    border: 1px solid silver;
+    width: 300px;
+    text-align: center;
+    animation-name: expand;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
