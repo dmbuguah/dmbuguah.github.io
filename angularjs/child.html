@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+<script type="text/javascript" src
+            ="bower_components/angular/angular.js"></script>
+<body>
+
+  <div ng-controller="SomeCtrl">
+
+    {{ someModel.someValue }}
+    <button ng-click="someAction()">Communicate to child</button>
+
+
+    <div ng-controller="ChildCtrl">
+      {{ someModel.someValue }}
+      <button ng-click="childAction()">Communicate to parent</button>
+    </div>
+
+  </div>
+
+  <script>
+    var my = angular.module('myApp', [])
+    my.controller('SomeCtrl', function($scope) {
+      // best practice, always use a model
+      $scope.someModel = {
+        someValue: 'hello computer'
+      }
+      $scope.someAction = function() {
+        $scope.someModel.someValue = 'hello human, from parent';
+      };
+    })
+    my.controller('ChildCtrl', function($scope) {
+      $scope.childAction = function() {
+        $scope.someModel.someValue = 'hello human, from child';
+      };
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title></title>
+        <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+<h1>Chapter 11:Built in Directives</h1>
+    <div ng-controller="myController">
+    <div>
+        <p>Built in directivres are prefixed by ng tags</p>
+        <ul>
+            <li>ng-href</li>
+            <li>ng-src</li>
+            <li>ng-disabled</li>
+            <li>ng-checked</li>
+            <li>ng-readonly</li>
+            <li>ng-selected</li>
+            <li>ng-class</li>
+        </ul>
+    </div>
+        <div>
+        <p>Examples in practice</p>
+        <h4>1. ng-disabled</h4>
+        <div class="form-group">
+        <input type="text" placeholder="Enter your name" ng-model="usernameMy">
+
+        <!-- <textarea ng-model="isDisabled"></textarea> -->
+        <button ng-model="button" ng-disabled="usernameMy" class="btn btn-success">Login</button>
+        </div>
+
+         <h4>2. ng-readonly</h4>
+         <div class="form-group">
+         <input type="text" ng-model="myUsername" placeholder="Enter Username">
+         <input type="text" ng-readonly="myUsername" value="some text here">
+
+         </div>
+
+        </div>
+
+
+    </div>
+<script type="text/javascript" src="js/builtdirectives.js"></script>
+</body>
+</html>
