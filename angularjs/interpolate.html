@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myInterpolate">
+<head>
+    <title></title>
+   <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+            </script>
+</head>
+<body>
+<h1>Chapter8:Expression</h1>
+    <div ng-controller="InterpolateController">
+        <div>
+            <label>To</label>
+            <input type="text" ng-model="to" type="email" placeholder="Recipient"/>
+        </div>
+
+    <br/>
+        <div class="form-group">
+        <label>Body</label>
+            <textarea ng-model="emailBody" ></textarea>
+            <pre>__previewText__</pre>
+        </div>
+    </div>
+
+<script type="text/javascript" src="js/interpolate.js"></script>
+</body>
+</html>

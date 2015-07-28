@@ -4,20 +4,60 @@ div[class="linear"]{
     background-image: linear-gradient(black,white);
 }
 .toleft{
-  width: 25%;
-  height: 200px;
-  background-image: linear-gradient(to left, black, white);
+  width: 30%;
+  height: 40px;
+  background-image: linear-gradient(to right,  #088744 70%, #FFFFFF);
+
   float: left;
   position: relative;
 }
-.topright{
+.gradient1{
+  color: white;
+  padding-left: 15px;
+  font-size: 25px;
+  padding-bottom: 15px;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+img{
+  height: 100px;
+   -webkit-filter:blur(1px);
+
+}
+
+img{
   width: 20%;
-  height: 200px;
-  background-image: linear-gradient(to top right, black, white);
-  float: right;
+  position: absolute;
+  -moz-box-shadow: inset 10 0 10em #666;
+ -webkit-box-shadow: inset 10 0 10em #666;
+ box-shadow: inset 0 0 18em #666;
+ left: 0;
+ z-index: 8;
+}
+
+/*.topright{
+  opacity: 0.4;
+  width: 50%;
+  height: 100px;
+  background-image: linear-gradient(to left, #D5D5D3 80%, #5D635F );
   margin-right:40em;
   position: relative;
-}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
 .degree{
   width: 25%;
    height: 200px;

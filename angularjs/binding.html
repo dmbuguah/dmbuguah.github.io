@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app='DataBinding'>
+<head>
+    <title></title>
+    <script type="text/javascript" src
+            ="bower_components/angular/angular.js"></script>
+            </script>
+</head>
+<body>
+<h1>Chapter3:Data Binding</h1>
+
+    <div ng-controller='BindController'>
+        <h4>It's {{ clock.now }}</h4>
+    </div>
+    <div>
+     <input ng-model="name" type="text" placeholder="Enter your name">
+     <p>Your name {{name}}</p>
+
+    </div>
+<script type="text/javascript" src="js/binding.js"></script>
+</body>
+</html>

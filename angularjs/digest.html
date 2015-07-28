@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title></title>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+    <style type="text/css">
+        .panel {
+            width: 50%;
+        }
+    </style>
+</head>
+<body-controller="myController">
+
+<h1>Digest Loops</h1>
+<p>Watch the old and new password</p>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Create Account</h3>
+    </div>
+    <div class="panel-body">
+
+        <form role="form">
+            <div class="form-group">
+                <label for="eml">Email address</label>
+                <input id="eml"
+                       type="email"
+                       class="form-control"
+                       placeholder="Email address"
+                       ng-model="user.email">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password</label>
+                <input id="pwd"
+                       type="password"
+                       class="form-control"
+                       placeholder="Password"
+                       ng-model="watch.user.password">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+    </div>
+</div>
+
+<div class="panel panel-danger" ng-show="watch.showReqs">
+    <div class="panel-heading">
+        <h3 class="panel-title">Password Requirements</h3>
+    </div>
+    <div class="panel-body">
+        <ul>
+          <li ng-repeat="req in watch.reqs">
+              {{ req }}
+          </li>
+        </ul>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="js/digest.js"></script>
+</html>
